@@ -36,8 +36,8 @@ async function react(sock, mek, emoji) {
 // 📦 Stylish info box
 function xBox(data) {
     return `
-‎*╔ஜ۩▒█ *ᴀʀꜱʟᴀɴ X ᴍᴅ* █▒۩ஜ╗*
-*|* *_ᴀʀꜱʟᴀɴ-ᴍᴅ xᴠɪᴅᴇᴏs_* 
+‎*╔ஜ۩▒█ *zenit X ᴍᴅ* █▒۩ஜ╗*
+*|* *_zenit-xᴍᴅ xᴠɪᴅᴇᴏs_* 
 *|┉┉┉┉◉◉◉┉┉┉┉┉┉┉━•⟢*
 *|▸ 📌 ᴛɪᴛʟᴇ:* ${data.title}
 *|▸ ⏱ ᴅᴜʀᴀᴛɪᴏɴ:* ${data.duration || "N/A"}
@@ -116,8 +116,8 @@ cmd({
             mimetype: "video/mp4",
             fileName: `${videoData.title}.mp4`,
             caption: `
-‎*╔ஜ۩▒█ *ᴀʀꜱʟᴀɴ X ᴍᴅ* █▒۩ஜ╗*
-‎*| 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 *ᴀʀꜱʟᴀɴ-ᴍᴅ* 
+‎*╔ஜ۩▒█ *Zenit X ᴍᴅ* █▒۩ஜ╗*
+‎*| 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 *ZENIT-XMD* 
 ‎*╰━━━━━━━━━━━━━━━━━━⊷*`
         }, { quoted: fakevCard });
 
